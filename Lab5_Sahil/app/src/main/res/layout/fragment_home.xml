@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B38704"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/textView_homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:foregroundGravity="top"
+        android:gravity="top"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp"
+        tools:text="Star wars battle arena" />
+
+    <Button
+        android:id="@+id/button_homefragment"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="400dp"
+        android:text="GO TO ARENA" />
+</FrameLayout>

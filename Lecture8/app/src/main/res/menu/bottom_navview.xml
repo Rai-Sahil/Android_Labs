@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItem_actionbar1"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Item 1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuItem_actionbar2"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Item 2"
+        app:showAsAction="ifRoom" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuItem_actionbar4"
+            android:title="Item 4"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/menuItem_actionbar3"
+            android:title="Item 3"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

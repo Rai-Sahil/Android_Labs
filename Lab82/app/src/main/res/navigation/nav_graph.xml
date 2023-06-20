@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/prepareFragment">
+
+    <fragment
+        android:id="@+id/prepareFragment"
+        android:name="com.bcit.lab8.PrepareFragment"
+        android:label="fragment_prepare"
+        tools:layout="@layout/fragment_prepare" >
+        <action
+            android:id="@+id/action_prepareFragment_to_questsFragment"
+            app:destination="@id/questsFragment"
+            app:popUpTo="@id/questsFragment"
+            app:popUpToSaveState="true"/>
+        <action
+            android:id="@+id/action_prepareFragment_to_failFragment"
+            app:destination="@id/failFragment" />
+        <action
+            android:id="@+id/action_prepareFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questsFragment"
+        android:name="com.bcit.lab8.QuestsFragment"
+        android:label="fragment_quests"
+        tools:layout="@layout/fragment_quests" >
+        <action
+            android:id="@+id/action_questsFragment_to_questsDetailFragment"
+            app:destination="@id/questsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questsDetailFragment"
+        android:name="com.bcit.lab8.QuestsDetailFragment"
+        android:label="fragment_quests_detail"
+        tools:layout="@layout/fragment_quests_detail" />
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.bcit.lab8.SuccessFragment"
+        android:label="fragment_success"
+        tools:layout="@layout/fragment_success" />
+    <fragment
+        android:id="@+id/failFragment"
+        android:name="com.bcit.lab8.FailFragment"
+        android:label="fragment_fail"
+        tools:layout="@layout/fragment_fail" />
+</navigation>

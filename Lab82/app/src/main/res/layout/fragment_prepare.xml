@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prepare_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DE9B6"
+    tools:context=".PrepareFragment" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="166dp"
+        android:layout_height="206dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="30dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textview_preparefragment"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="30dp"
+        android:text="Choose a Sidekick"
+        android:textColor="#F6F1F1"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_sidekick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton_preparefrag_fairy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fairy" />
+
+        <RadioButton
+            android:id="@+id/radioButton_preparefrag_goron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goron" />
+
+        <RadioButton
+            android:id="@+id/radioButton_preparefrag_chicken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicken" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textview_preparefragment_item"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:text="Choose a Item"
+        android:textColor="#F6F1F1"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="490dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton_preparefrag_potion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Potion" />
+
+        <RadioButton
+            android:id="@+id/radioButton_preparefrag_compass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compass" />
+
+        <RadioButton
+            android:id="@+id/radioButton_preparefrag_shield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shield" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_startquests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="540dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:text="Start Quests" />
+
+</FrameLayout>

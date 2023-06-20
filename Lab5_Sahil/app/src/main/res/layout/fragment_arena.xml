@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A37D0A"
+    tools:context=".ArenaFragment">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView1_arenafragment"
+        android:name="com.bcit.lab5_sahil.FighterFragment"
+        android:layout_width="302dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="30dp"
+        tools:layout="@layout/fragment_fighter" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2_arenafragment"
+        android:name="com.bcit.lab5_sahil.FighterFragment"
+        android:layout_width="302dp"
+        android:layout_height="216dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="120dp"
+        tools:layout="@layout/fragment_fighter" />
+
+    <TextView
+        android:id="@+id/textView_arenafragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="@string/vs"
+        android:textColor="#3E2723"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_arenafragment_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/home" />
+
+    <Button
+        android:id="@+id/button3_arenafrgment_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="250dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/next" />
+</FrameLayout>

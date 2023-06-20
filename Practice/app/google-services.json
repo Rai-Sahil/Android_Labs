@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199394176682",
+    "project_id": "forward-script-378518",
+    "storage_bucket": "forward-script-378518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199394176682:android:e559ded3bb580e4449aad3",
+        "android_client_info": {
+          "package_name": "com.bcit.practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199394176682-clsuridujke35g4b6lc02flkllrfg0t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsnw9v22s2_Ovyx_xlrfEKPr4WhhHF4LU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199394176682-clsuridujke35g4b6lc02flkllrfg0t1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "442797481793",
+    "project_id": "kotlinflow",
+    "storage_bucket": "kotlinflow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442797481793:android:b3ee43bd588bcea2dfcbc0",
+        "android_client_info": {
+          "package_name": "com.bcit.kotlinflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442797481793-0louglpaorod8psh7bupceeqfcn75e4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsVF3wAaghl-ix_d6GbOz6DOE3GOzYW8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442797481793-0louglpaorod8psh7bupceeqfcn75e4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

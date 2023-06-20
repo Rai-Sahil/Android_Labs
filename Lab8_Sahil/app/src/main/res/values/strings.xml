@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab8_Sahil</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="name_people">name</string>
+    <string name="text_main">Text</string>
+    <string name="people_main">People</string>
+    <string name="add">ADD</string>
+</resources>
